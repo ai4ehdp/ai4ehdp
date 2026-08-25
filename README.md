@@ -4,5 +4,5 @@ This branch contains source code for working with models (training and inference
 
 ### Scripts folder
 
-`transcribe_digits.py` - Python script for segmenting lines in the input image followed by segmenting digits within the line. Segmented digits are finally transcribed using imitation learning. 
-`transcribe_digits_folder.py` - Python script for segmenting lines in all images in the specified folder followed by segmenting digits within the lines. Segmented digits are finally transcribed using imitation learning.
+- `transcribe_digits.py` - Python script for segmenting lines in the input image followed by segmenting digits within the line. Segmented digits are finally transcribed using imitation learning. 
+- `transcribe_digits_folder.py` - Python script for segmenting lines in all images in the specified folder followed by segmenting digits within the lines. Segmented digits are finally transcribed using imitation learning.
