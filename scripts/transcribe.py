@@ -13,7 +13,7 @@ from pathlib import Path
 # Check command-line arguments
 # -----------------------------
 if len(sys.argv) < 6:
-    print("Usage:\n transcribe_by_line_segmentation.py \n\t<model_lines> \n\t<model_digits> \n\t<model_bc> \n\t<image_path> \n\t<output_img_path> \n\t[--clean-masks] \n\t[--expand-masks=15] \n\t[--lines=1,3,5] \n\t[--save-txt]")
+    print("Usage:\n transcribe.py \n\t<model_lines> \n\t<model_digits> \n\t<model_bc> \n\t<image_path> \n\t<output_img_path> \n\t[--clean-masks] \n\t[--expand-masks=15] \n\t[--lines=1,3,5] \n\t[--save-txt]")
     exit()
 
 # -----------------------------
