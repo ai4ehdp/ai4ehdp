@@ -8,3 +8,5 @@ This repository contains supporting source files and AI model checkpoint files a
 - The `digit_transcription` branch contains trained AI models and scripts related to the training and running models responsible for transcription of digits in encrypted handwritten documents.
 - The `document_classification` branch contains trained AI models and scripts related to the training models and running the classification of historical handwritten documents.
 - The `cipher_key_layout_analysis` branch contains trained AI models and scripts related to the training models and running the segmentation of cipher key structural components.
+
+a
