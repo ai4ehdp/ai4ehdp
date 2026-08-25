@@ -6,7 +6,7 @@ import subprocess
 # Usage check
 # -----------------------------
 if len(sys.argv) < 7:
-    print("Usage: python transcribe_by_line_segmentation_folder.py <model_lines> <model_digits> <model_bc> <folder_path> <output_folder> [--clean-masks] [--lines=1,3] [--expand-masks=15] [--save-txt]")
+    print("Usage: python transcribe_folder.py <model_lines> <model_digits> <model_bc> <folder_path> <output_folder> [--clean-masks] [--lines=1,3] [--expand-masks=15] [--save-txt]")
     exit()
 
 model_lines = sys.argv[1]
@@ -29,7 +29,7 @@ for img_name in images:
 
     cmd = [
         sys.executable,  # python interpreter
-        "transcribe_by_line_segmentation.py",
+        "transcribe.py",
         model_lines,
         model_digits,
         model_bc,
