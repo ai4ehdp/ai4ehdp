@@ -10,5 +10,6 @@ This branch contains source code for working with models (training and inference
 
 ### Description of `models` folder
 
-- `lines/segment_lines.pt` - trained YOLO8l model for segmenting lines in the input document
 - `digits/bc_policy.zip` - trained imitation learning model based on behavioral cloning for transcription of digits
+- `digits/segment_digits.pt` - trained YOLO8l model for segmenting digits in lines
+- `lines/segment_lines.pt` - trained YOLO8l model for segmenting lines in the input document
