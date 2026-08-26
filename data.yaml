@@ -1,0 +1,11 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names:
+  - 0
+  - 1
+  - 1h
+  - S
+  - V
