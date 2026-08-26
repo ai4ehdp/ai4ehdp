@@ -7,9 +7,11 @@ This branch contains source code for working with models (training and inference
 - `digits/transcribe_digits.py` - Python script for segmenting lines in the input image followed by segmenting digits within the line. Segmented digits are finally transcribed using imitation learning. 
 - `digits/transcribe_digits_folder.py` - Python script for segmenting lines in all images in the specified folder followed by segmenting digits within the lines. Segmented digits are finally transcribed using imitation learning.
 - `digits/train_cli_command.txt` - CLI command for training YOLO model for segmenting digits in lines
+- `lines/segment_lines.py` - Python script for segmenting lines in the input image. 
+- `lines/segment_lines_folder.py` - Python script for segmenting lines in all images in the specified folder.
 
 ### Description of `models` folder
 
 - `digits/bc_policy.zip` - trained imitation learning model based on behavioral cloning for transcription of digits
-- `digits/segment_digits.pt` - trained YOLO8l model for segmenting digits in lines
+- `digits/segment_digits_in_lines.pt` - trained YOLO8l model for segmenting digits in lines
 - `lines/segment_lines.pt` - trained YOLO8l model for segmenting lines in the input document
