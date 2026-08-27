@@ -1,7 +1,8 @@
-# HCKC – YOLO26-Seg Training & Evaluation
+# HCKC – YOLO26M-Seg Training & Evaluation
 
 Script for training and evaluating a YOLO26-M segmentation model on the
-cipher key layouts dataset (SMOTE-augmented).
+cipher key layouts dataset (SMOTE-augmented). Here you can find best-performing configuration and model weights from:
+**HCKC: a Dataset of Historical Cipher Key Component Annotations for Machine Learning Tasks** publication
 
 ## Requirements
 
@@ -73,26 +74,6 @@ All outputs are saved to:
 ```
 <project_name>/<run>/
 ```
-
-i.e., in this case `HCKC/yolo26_M_ourA/`.
-
-## Configurable parameters
-
-At the top of the script you can adjust:
-
-| Parameter | Description |
-|---|---|
-| `data_yaml` | path to the dataset's `data.yaml` |
-| `img_size` | input image size (default 640) |
-| `epochs` | number of training epochs |
-| `batch` | batch size |
-| `project_name` | parent folder name for outputs |
-| `run` | name of this specific run |
-
-Augmentation parameters (`mosaic`, `mixup`, `flipud`, `fliplr`, `degrees`,
-`shear`, `scale`, `translate`, `close_mosaic`, `copy_paste`, `erasing`,
-`cutmix`, `hsv_h`, `hsv_s`, `hsv_v`) are set directly in the
-`model.train(...)` call.
 
 ## Console output
 
